@@ -14,14 +14,14 @@ build:
 
 .PHONY: lint
 lint:
-	flake8 chaosext/ tests/
-	isort --check-only --profile black chaosext/ tests/
-	black --check --diff --line-length=80 chaosext/ tests/
+	flake8 chaospixie/ tests/
+	isort --check-only --profile black chaospixie/ tests/
+	black --check --diff --line-length=80 chaospixie/ tests/
 
 .PHONY: format
 format:
-	isort --profile black chaosext/ tests/
-	black --line-length=80 chaosext/ tests/
+	isort --profile black chaospixie/ tests/
+	black --line-length=80 chaospixie/ tests/
 
 .PHONY: tests
 tests:

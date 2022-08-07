@@ -1,1 +1,2 @@
-chaostoolkit-lib~=1.25
+chaostoolkit-lib~=1.28
+pxapi~=0.5
