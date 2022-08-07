@@ -2,7 +2,7 @@ import re
 from statistics import StatisticsError, median, quantiles
 from typing import Any, Dict, List, Literal, Tuple
 
-from chaosreliably import ActivityFailed
+from chaoslib.exceptions import ActivityFailed
 from logzero import logger
 
 __all__ = [
