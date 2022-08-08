@@ -2,9 +2,7 @@
 
 [![Version](https://img.shields.io/pypi/v/chaostoolkit-pixie.svg)](https://img.shields.io/pypi/v/chaostoolkit-pixie.svg)
 [![License](https://img.shields.io/pypi/l/chaostoolkit-pixie.svg)](https://img.shields.io/pypi/l/chaostoolkit-pixie.svg)
-
-![Build](https://github.com/chaostoolkit-incubator/chaostoolkit-pixie/workflows/Build/badge.svg)
-[![codecov](https://codecov.io/gh/chaostoolkit-incubator/chaostoolkit-pixie/branch/master/graph/badge.svg)](https://codecov.io/gh/chaostoolkit-incubator/chaostoolkit-pixie)
+[![Build, Test, and Lint](https://github.com/chaostoolkit-incubator/chaostoolkit-pixie/actions/workflows/build.yaml/badge.svg)](https://github.com/chaostoolkit-incubator/chaostoolkit-pixie/actions/workflows/build.yaml)
 [![Python versions](https://img.shields.io/pypi/pyversions/chaostoolkit-pixie.svg)](https://www.python.org/)
 
 This extension allows you to run [Pixie](https://px.dev/) script during your
