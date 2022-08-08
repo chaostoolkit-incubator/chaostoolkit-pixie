@@ -1,7 +1,8 @@
 .PHONY: install
 install:
-	pip install --upgrade pip setuptools wheel setuptools_scm setuptools_scm_git_archive
+	pip install --upgrade pip setuptools wheel
 	pip install -r requirements.txt
+	pip install --upgrade pip setuptools wheel setuptools_scm setuptools_scm_git_archive
 
 .PHONY: install-dev
 install-dev: install
